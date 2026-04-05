@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SkillsSection from "@/components/SkillsSection";
 import EducationSection from "@/components/EducationSection";
+import TerminalSection from "@/components/TerminalSection";
 import ContactSection from "@/components/ContactSection";
 
 const Index = () => (
@@ -12,6 +13,7 @@ const Index = () => (
     <ProjectsSection />
     <SkillsSection />
     <EducationSection />
+    <TerminalSection />
     <ContactSection />
     <footer className="py-8 text-center font-mono text-xs text-terminal-dim border-t border-border">
       © 2026 Koteswararao Gottipati — Built with passion for DevOps
