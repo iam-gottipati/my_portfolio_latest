@@ -50,6 +50,10 @@ const HeroSection = () => {
             className="px-6 py-3 bg-primary text-primary-foreground font-mono text-sm font-semibold rounded-md hover:opacity-90 transition-opacity border-glow">
             Contact Me
           </a>
+          <a href="/resume.pdf" download
+            className="px-6 py-3 border border-border text-foreground font-mono text-sm font-semibold rounded-md hover:border-terminal-amber hover:text-terminal-amber transition-colors">
+            Resume ↓
+          </a>
           <a href="https://github.com/iam-gottipati" target="_blank" rel="noreferrer"
             className="px-6 py-3 border border-border text-foreground font-mono text-sm font-semibold rounded-md hover:border-primary hover:text-primary transition-colors">
             GitHub →
