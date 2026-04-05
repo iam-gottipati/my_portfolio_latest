@@ -24,8 +24,12 @@ const certifications = [
   "Introduction to DevOps – Coursera",
 ];
 
-const EducationSection = () => (
-  <section id="education" className="py-24 px-6">
+import { useScrollReveal } from "@/hooks/useScrollReveal";
+
+const EducationSection = () => {
+  const ref = useScrollReveal();
+  return (
+  <section id="education" className="py-24 px-6" ref={ref}>
     <div className="max-w-5xl mx-auto">
       <div className="font-mono text-sm text-terminal-dim mb-2">
         <span className="text-terminal-green">$</span> cat education.log
@@ -60,6 +64,7 @@ const EducationSection = () => (
       </div>
     </div>
   </section>
-);
+  );
+};
 
 export default EducationSection;

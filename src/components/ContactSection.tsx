@@ -1,5 +1,9 @@
-const ContactSection = () => (
-  <section id="contact" className="py-24 px-6 border-t border-border">
+import { useScrollReveal } from "@/hooks/useScrollReveal";
+
+const ContactSection = () => {
+  const ref = useScrollReveal();
+  return (
+  <section id="contact" className="py-24 px-6 border-t border-border" ref={ref}>
     <div className="max-w-3xl mx-auto text-center">
       <div className="font-mono text-sm text-terminal-dim mb-2">
         <span className="text-terminal-green">$</span> ./connect.sh
@@ -23,6 +27,7 @@ const ContactSection = () => (
       </div>
     </div>
   </section>
-);
+  );
+};
 
 export default ContactSection;
