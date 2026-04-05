@@ -6,7 +6,7 @@ import EducationSection from "@/components/EducationSection";
 import ContactSection from "@/components/ContactSection";
 
 const Index = () => (
-  <div className="min-h-screen bg-background">
+  <div className="min-h-screen bg-background scroll-smooth">
     <Navbar />
     <HeroSection />
     <ProjectsSection />

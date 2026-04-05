@@ -30,8 +30,12 @@ const projects = [
   },
 ];
 
-const ProjectsSection = () => (
-  <section id="projects" className="py-24 px-6">
+import { useScrollReveal } from "@/hooks/useScrollReveal";
+
+const ProjectsSection = () => {
+  const ref = useScrollReveal();
+  return (
+  <section id="projects" className="py-24 px-6" ref={ref}>
     <div className="max-w-5xl mx-auto">
       <div className="font-mono text-sm text-terminal-dim mb-2">
         <span className="text-terminal-green">$</span> ls ./projects
@@ -65,6 +69,7 @@ const ProjectsSection = () => (
       </div>
     </div>
   </section>
-);
+  );
+};
 
 export default ProjectsSection;

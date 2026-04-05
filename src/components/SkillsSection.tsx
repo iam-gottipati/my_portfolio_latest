@@ -5,8 +5,12 @@ const skillGroups = [
   { label: "Languages & OS", items: ["Python", "Linux (Ubuntu)", "Shell Scripting"], color: "text-foreground" },
 ];
 
-const SkillsSection = () => (
-  <section id="skills" className="py-24 px-6">
+import { useScrollReveal } from "@/hooks/useScrollReveal";
+
+const SkillsSection = () => {
+  const ref = useScrollReveal();
+  return (
+  <section id="skills" className="py-24 px-6" ref={ref}>
     <div className="max-w-5xl mx-auto">
       <div className="font-mono text-sm text-terminal-dim mb-2">
         <span className="text-terminal-green">$</span> cat skills.yml
@@ -33,6 +37,7 @@ const SkillsSection = () => (
       </div>
     </div>
   </section>
-);
+  );
+};
 
 export default SkillsSection;
