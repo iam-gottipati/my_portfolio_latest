@@ -28,6 +28,16 @@ const projects = [
       "Managed scaling using ReplicaSets",
     ],
   },
+  {
+    title: "Multi-Platform Docker Builds with Buildx",
+    tag: "Docker Buildx",
+    points: [
+      "Built cross-platform container images for amd64 and arm64",
+      "Used docker buildx with custom builder instances",
+      "Pushed multi-arch images to Docker Hub",
+      "Optimized build cache with BuildKit layers",
+    ],
+  },
 ];
 
 import { useScrollReveal } from "@/hooks/useScrollReveal";
