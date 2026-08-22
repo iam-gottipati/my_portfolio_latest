@@ -22,7 +22,7 @@ const COMMANDS: Record<string, string[]> = {
     "cloud infrastructure.",
   ],
   skills: [
-    "DevOps Tools  ➜ Docker · Git · GitHub Actions · Jenkins · K8s",
+    "DevOps Tools  ➜ Docker · Docker Buildx · Git · GitHub Actions · Jenkins · K8s",
     "Cloud         ➜ AWS EC2 · IAM · S3 · VPC",
     "IaC & Config  ➜ Terraform · Ansible",
     "Languages     ➜ Python · Shell Scripting · Linux (Ubuntu)",
@@ -31,6 +31,7 @@ const COMMANDS: Record<string, string[]> = {
     "1. Dockerized Java App Deployment        [Docker]",
     "2. CI/CD Pipeline using Jenkins           [Jenkins]",
     "3. Kubernetes Deployment on AWS            [K8s+AWS]",
+    "4. Multi-Platform Docker Builds with Buildx [Buildx]",
     "",
     "Type 'goto projects' to view details.",
   ],
