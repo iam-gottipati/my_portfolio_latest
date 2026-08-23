@@ -1,5 +1,5 @@
 const skillGroups = [
-  { label: "DevOps Tools", items: ["Docker", "Docker Buildx", "Git", "GitHub Actions", "Jenkins", "Kubernetes"], color: "text-primary" },
+  { label: "DevOps Tools", items: ["Docker", "Git", "GitHub Actions", "Jenkins", "Kubernetes"], color: "text-primary" },
   { label: "Cloud", items: ["AWS EC2", "IAM", "S3", "VPC"], color: "text-terminal-cyan" },
   { label: "IaC & Config", items: ["Terraform", "Ansible"], color: "text-terminal-amber" },
   { label: "Languages & OS", items: ["Python", "Linux (Ubuntu)", "Shell Scripting"], color: "text-foreground" },
